@@ -3752,6 +3752,7 @@ value nme_bitmap_data_create(value* arg, int nargs)
          case 3: format = pfLuma; break;
          case 4: format = pfLumaAlpha; break;
          case 5: format = pfRGB; break;
+         case 7: format = pfBGRPremA; break;
       }
    }
    
